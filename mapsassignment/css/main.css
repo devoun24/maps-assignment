@@ -1,0 +1,33 @@
+#map {
+  height: 400px;
+  width: 60%;
+  margin: auto;
+}
+#copy p {
+  text-align: left;
+  margin-left: 284.797px;
+  margin-right: 284.812px;
+}
+h1 {
+  text-align: center;
+  font-family: 'Anton', 'Arial Black', sans-serif;
+}
+body {
+    font-family: 'Josefin Slab', 'Times New Roman', serif;
+    color: #000;
+    background: #E9BE05;
+}
+@media screen and (max-width: 900px) {
+  #map {
+    height: 400px;
+    width: 100%;
+  }
+  body {
+    margin: 0;
+  }
+  #copy p {
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
